@@ -1,6 +1,7 @@
 # Omada SDN Controller — Docker Password Reset
 
 **Target:** TP-Link Omada Software Controller v5.x+  
+**Tested On:** Omada `5.15.24.19` via `mbentley/omada-controller` on Unraid (2026-06-06)  
 **Environment:** Unraid Docker (image: `mbentley/omada-controller`, bundled legacy MongoDB)  
 **Database:** `omada`  
 **Auth:** Apache Shiro SHA-256 (password) + Base64-encrypted (username)
